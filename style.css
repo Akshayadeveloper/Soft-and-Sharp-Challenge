@@ -1,0 +1,57 @@
+/* styles.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); 
+* { 
+	box-sizing: border-box; 
+	margin: 0; 
+	padding: 0; 
+}
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+     /* background: linear-gradient(135deg, #3494e6, #ec6ead);*/
+      background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+      animation: sparkle 5s infinite linear;
+    }
+ 
+    .container {
+      background-color:rgb(0,0,0);background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);background-position:top left;background-repeat:repeat;background-attachment:fixed;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5; /* Soft background color */
+      transition: background-color 0.5s ease; /* Soft background transition */
+    }
+
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px; /* Soft, rounded edges */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s ease; /* Soft transition for box properties */
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: filter 0.5s ease; /* Soft transition for image filter property */
+    }
+
+    .sharp-image {
+      filter: contrast(200%) brightness(80%); /* Sharp image effect */
+    }
+  a{color:#fff;}
+  /*Center image text*/
+  #centered{
+  background: linear-gradient(135deg, #3494e6, #ec6ead);
+      animation: sparkle 5s infinite linear;
+    color:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+  
